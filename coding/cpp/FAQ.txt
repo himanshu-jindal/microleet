@@ -1,0 +1,9 @@
+1) constructor can be private, 3 cases possile
+   1) make static function in which we will call constructor, call this syattic function from outside class
+   2) singleton class or limited number of instances, implementation same of 1 point
+   3) make a class friend, and friend class can only instantiate other class's object
+
+2) Pure virtual function means-> void function()=0; basically no implementation, any class having atleast one PVF, it becomes abstract class, you can not create object of abstract class, and it should be overridden in derived class
+    
+
+
