@@ -1,0 +1,33 @@
+1) Why dynamic memory allocation is needed?
+   ->We dont know the array size beforehand
+
+2) 
+// 1d dynamic array
+-> block for n integers
+
+int* arr  = new int[n];
+int* arr = new int[n]{};          // intialise dynamic m/m with 0
+
+
+
+
+// 2d dynamic array intialisation
+-> block for n int* pointers
+
+int** adj = new int*[n];
+
+for(int i=0; i<n; i++)     -> if u want to intialise with 0
+adj[i] = new int[n]{0};
+
+
+
+
+
+//1d vector
+vctor<int> vect(n,0);
+
+// 2d vector 
+vector<vector<int>> vect(n, vect<int> (n,0));
+
+
+int adj[n][n]; // illegal, we can't use variables in normal array declarations
