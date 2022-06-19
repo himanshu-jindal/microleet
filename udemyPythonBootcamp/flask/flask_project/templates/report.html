@@ -1,0 +1,19 @@
+{% extends "basic.html" %}
+{% block content %}
+
+<div class="jumbotron">
+    {% if not c1 and not c2 and not c3 %}
+        <p>you have entered a valid username</p>
+    {% endif %}
+
+        <p>{{c1}}</p>
+
+        <p>{{c2}}</p>
+
+
+        <p>{{c3}}</p>
+
+
+</div>
+
+{% endblock %}

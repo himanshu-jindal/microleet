@@ -1,0 +1,24 @@
+
+.main{
+    color: green;
+    background: pink;
+    background-repeat: no-repeat;
+    border: green 3px dashed;
+    font-family: 'Festive', cursive;}
+
+.div1{
+    color: rgba(236, 144, 24, 0.5);
+}
+
+.div2{
+    color: green;
+
+}
+
+#p1{
+    color:red;
+}
+
+#span1{
+    color:yellow;
+}
