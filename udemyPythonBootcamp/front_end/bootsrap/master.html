@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            
+            <form>
+
+                <!-- email -->
+
+                <div>
+                    <label for="email" >Enter your email address</label>
+                    <input id="email" type="email" name="email" class="form-control">
+                </div>
+
+                <br>
+                <!-- password-->
+
+                <div>
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password" class="form-control">
+                </div>
+                
+                <br>
+                <!-- single select-->
+
+                <p>choose number of cryptos you have</p>
+                <div>
+                    <select class="form-select" size="3" aria-label="size 3 select example">
+                        <option selected value="0">zero</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="99">more than three</option>
+                      </select>
+                </div>
+
+                <br>
+                <p>which all you wants to sell?</p>
+                <!--multiple select-->
+                <div>
+
+                    <select multiple class="form-select" size="3" aria-label="size 3 select example">
+                        <option selected value="all">all</option>
+                        <option value="bitcoin">bitcoin</option>
+                        <option value="eth">ether</option>
+                        <option value="ada">caradano</option>
+                        <option value="dog">Dogecoin</option>
+                      </select>
+                </div>
+
+                <br>
+                <!-- textarea-->
+                
+                <div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">your stance on ban on cryptos in india, mention few lines</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                </div>
+
+                <!-- choose file-->
+                <br>
+                <div>
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label">upload your crypto statement</label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                      </div>
+                </div>
+
+
+
+                <!-- radio buttons-->
+                <br>
+                <p>currently you are in loss or profit?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      loss
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      profit
+                    </label>
+                  </div>
+
+                <br>
+                <!-- check box-->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required="true">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+                
+                <br>
+                <!--submit button -->
+                <div>
+                    <input type="submit" class="btn btn-primary" name="submit" value="submit now" class="form-control">
+                </div>
+                    
+
+
+            </form>
+
+
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{% extends "basic.html" %}
+{% block content %}
+<div class="jumbotron">
+    <h2>Welcome to Puppy Deletion page in database</h2>
+    <br>
+    <p>Please provide puppy id below</p>
+    <br>
+    <form method="post">
+        {{form.hidden_tag()}}
+        {{form.id.label}}  {{form.id}}
+        <br>
+        {{form.submit()}}
+    </form>
+</div>
+{% endblock %}

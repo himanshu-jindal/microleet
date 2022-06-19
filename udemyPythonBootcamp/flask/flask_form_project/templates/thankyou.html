@@ -1,0 +1,11 @@
+{% extends "basic.html" %}
+{% block content %}
+<p> Thank you for your biodata </p>
+<br>
+{% for msg in get_flashed_messages() %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <p>{{msg}}</p>
+    Your updated name is: <strong>{{session['fname']}} {{session['lname']}}</strong> 
+  </div>
+{% endfor %}
+{% endblock %}
